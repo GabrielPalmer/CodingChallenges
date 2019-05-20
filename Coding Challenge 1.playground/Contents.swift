@@ -25,3 +25,14 @@ print("\nNumbers divisible by 3 and 5")
 print(divisibleNumbers)
 
 //the if statement is ordered by frequency to minimize code run per loop
+
+
+
+var things = [3, 5, 7, 2, 5 ,3 ,6 ,7 ,4 ,9 ,6 ,1 ,4]
+
+let yearOffSets = things.enumerated().sorted { $0 > $1 }.map { $0.offset }
+yearOffSets.map { things[$0] }
+
+print("")
+print(yearOffSets)
+print(things)
