@@ -36,3 +36,7 @@ yearOffSets.map { things[$0] }
 print("")
 print(yearOffSets)
 print(things)
+
+for index in 1...3 {
+    print(index)
+}
